@@ -1,13 +1,13 @@
 # newfor-subtitles
-Create a Newfor subtitle stream from a SubRib subtitles file.
+Teletext subtitles on your TV. This app creates a Newfor subtitle stream from a SubRib subtitles file and connects to a Raspberry Pi teletext generator running VBIT or VBIT2.
 
 Introduction
 ============
-Newfor is a simple protocol for teletext subtitles. It has only four functions, Set page, load subtitle buffer, put buffer on air and finally remove subtitle. This program takes an SRT subtitle file and creates a subtitle stream from it. Because serial ports are mostly obsolete the stream uses a TCP port instead. The Raspberry Pi teletext generator VBIT-Pi-Stream can accept Newfor on port 5570. The code is in the form of a Processing sketch.
+Newfor is a simple protocol for teletext subtitles. It has only four functions, Set page, load subtitle buffer, put buffer on air and finally remove subtitle. This program takes an SRT subtitle file and creates a subtitle stream from it. Because serial ports are mostly obsolete the stream uses a TCP port instead. The Raspberry Pi teletext generator VBIT-Pi-Stream or VBIT2 can accept Newfor on port 5570. The code is in the form of a Processing sketch.
 
 How to use this code?
 =====================
-Install the latest version of Processing. Run Processing and load newfor.pde. Then you can run it from the Processing environment. It should be equally happy on Windows, Linux or Mac. You can always export the application if you want.
+Install the latest version of Processing. Run Processing and load newfor.pde. Then you can run it from the Processing environment. It should be equally happy on Windows, Linux or Mac. You can always export the application to make it into a stand-alone package.
 
 Configuration
 =============
