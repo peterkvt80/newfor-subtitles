@@ -7,7 +7,7 @@ Newfor is a simple protocol for teletext subtitles. It has only four functions, 
 
 How to use this code?
 =====================
-Install the latest version of Processing. Run Processing and load newfor.pde. Then you can run it from the Processing environment. It should be equally happy on Windows, Linux or Mac. You can always export the application to make it into a stand-alone package.
+Install the latest version of Processing. You also need to find the ControlP5 library and add it. Run processing and select Sketch->Import :inrary->Add library and rummage around for ControlP5. Clone the code and rename the resulting folder from newfor-subtitles to newfor to keep Java happy. Run Processing and load newfor.pde. Then you can run it from the Processing environment. It should be equally happy on Windows, Linux or Mac. You can always export the application to make it into a stand-alone package.
 
 Configuration
 =============
