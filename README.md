@@ -19,4 +19,4 @@ Edit newfor.xml and set the piaddress to that of your Raspberry Pi. You can find
 </pre>
 The controls are the blue buttons. RESTART is not implemented and will not work. PLAY will start running through the subtitles. After pressing play the button becomes HOLD. HOLD stops the subtitles until you press the button again. LOAD SRT File lets you choose another SubRip Text file. You can get SRT files from many places. SRT is a very simple format so you can type your own. NEXT lets you skip to the next subtitle.
 
-The SUBTITLE STARTS time is yellow. When a subtitle is on ait it goes green. Likewise text not on air yet is yellow and it turns white when on air. 
+The SUBTITLE STARTS time is yellow. When a subtitle is on air it goes green. Likewise text not on air yet is yellow and it turns white when on air. 
