@@ -107,6 +107,7 @@ public class Subtitle
       e.printStackTrace();
       line = null;
     }
+    System.out.println(line);
     if (line == null) {
       // Stop reading because of an error or file is empty
       noLoop();  

@@ -34,7 +34,7 @@ void setup()
   client=null;
   connect();
   println("1: set 888 2: Set text 3: On 4: clear");
-  subtitle=new Subtitle("Blade-Runner-Final-Cut-1982-BRRip-XviD-SLiCK.srt");
+  subtitle=new Subtitle("kat.srt");
   sendPageNumber(0x888);
   client.write(0x18);  // Subtitle off air  
   state=0;
