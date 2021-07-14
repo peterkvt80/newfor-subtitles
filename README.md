@@ -11,7 +11,7 @@ Install the latest version of Processing. You also need to find the ControlP5 li
 
 Configuration
 =============
-Edit newfor.xml and set the piaddress to that of your Raspberry Pi. You can find the address as your pi should print it as the last step of the boot process. Otherwise you can use the ifconfig command. You should leave the port as 5570. The filename is not used at the moment.
+Edit newfor.xml and set the piaddress to that of your vbit2. This is normally your Raspberry Pi but it can be whatever you are running vbit2 on. You can find the address as your pi should print it as the last step of the boot process. Otherwise you can use the ifconfig command. You should leave the port as 5570. The filename is not used at the moment.
 <pre>
  piaddress: 192.168.1.8
  piport: 5570
